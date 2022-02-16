@@ -2,7 +2,7 @@ export default {
 	title: 'AX Hiring',
 	description: 'AX Hiring',
 	themeConfig: {
-		logo: '../assets/logo.svg',
+		logo: '/logo.svg',
 		nav: [{
 			text: 'Apply',
 			link: '/apply'
