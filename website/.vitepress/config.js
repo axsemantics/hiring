@@ -17,5 +17,7 @@ export default {
 			link: '/openings'
 		}]
 	},
-	
+	markdown: {
+		breaks: true
+	}
 }

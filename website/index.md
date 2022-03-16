@@ -1,11 +1,13 @@
 ---
 title: AX Hiring
-home: true
-heroText: Hero Title
-tagline: Hero subtitle
-actionText: Apply
-actionLink: /apply/
+sidebar: false
 ---
+
+<div class="hero">
+	<h1>AX is hiring!</h1>
+	<CallToActionButton label="Apply Now" link="/apply"/>
+</div>
+
 
 Hi there!
 

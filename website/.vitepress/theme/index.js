@@ -9,6 +9,7 @@ import '@fontsource/roboto-condensed'
 import Layout from './Layout.vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.styl'
+import CallToActionButton from './components/CallToActionButton.vue'
 
 export default {
 	...DefaultTheme,
@@ -17,5 +18,6 @@ export default {
 	enhanceApp({ app, router, siteData }) {
 		// app is the Vue 3 app instance from `createApp()`. router is VitePress'
 		// custom router. `siteData` is a `ref` of current site-level metadata.
+		app.component('CallToActionButton', CallToActionButton)
 	}
 }

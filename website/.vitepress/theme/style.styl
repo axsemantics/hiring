@@ -1,9 +1,24 @@
 :root
 	--c-brand: #0a974b
 	--c-brand-light: #4abf8a
+	--c-brand-dark: #076e37
 
 #app
 	.nav-bar-title
 		color: transparent
 		.logo
 			height: 2.5rem
+
+.container
+	display: flex
+	flex-direction: column
+	min-height: calc(100vh - var(--header-height))
+	padding-bottom: 0
+
+	> .content
+		flex: auto
+
+.hero
+	display: flex
+	flex-direction: column
+	align-items: center
