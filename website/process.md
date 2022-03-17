@@ -68,10 +68,10 @@ We would like to have a look at something you built and read some code you wrote
 
 #### A) Something existing
 
-You provide us with some existing project/design/code of yours we can have a look at.
-This can be some git(hub) repository or a tar/zip file.
-Ideally the code should be runnable locally or be already online for us to try it out.
+You provide us with some existing project/design/code of yours we can have a look at. This can be some git(hub) repository or a tar/zip file. Ideally the code should be runnable locally or be already online for us to try it out.
+Choose something that you think shows of some of your skills.
 
+**OR**
 
 #### B) A coding challenge
 
